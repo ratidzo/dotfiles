@@ -4,6 +4,9 @@
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
+-- Open project dir
+keymap.set("n", "<leader>pv", vim.cmd.Ex)
+
 -- Increment/ decrement
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
