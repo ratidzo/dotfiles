@@ -19,6 +19,13 @@ alias ls="eza --icons --git"
 alias l="eza -alg --color=always --group-directories-first --git --icons"
 alias ll="eza -aliSgh --color=always --group-directories-first --icons --header --long --git"
 alias tree="eza --tree --color=always --group-directories-first --icons "
+
+# Alias for neovim
+alias nvim="$HOME/user/bin/nvim"
+alias vim="nvim"
+export EDITOR="nvim"
+export VISUAL="nvim"
+
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
         if [ -f "$rc" ]; then
