@@ -15,6 +15,10 @@ export PATH
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
+alias ls="eza --icons --git"
+alias l="eza -alg --color=always --group-directories-first --git --icons"
+alias ll="eza -aliSgh --color=always --group-directories-first --icons --header --long --git"
+alias tree="eza --tree --color=always --group-directories-first --icons "
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
         if [ -f "$rc" ]; then
