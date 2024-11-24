@@ -1,4 +1,4 @@
-# .bashrc
+#.bashrc
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
@@ -21,7 +21,7 @@ alias ll="eza -aliSgh --color=always --group-directories-first --icons --header 
 alias tree="eza --tree --color=always --group-directories-first --icons "
 
 # Alias for neovim
-alias nvim="$HOME/user/bin/nvim"
+alias nvim="/usr/bin/nvim"
 alias vim="nvim"
 export EDITOR="nvim"
 export VISUAL="nvim"
