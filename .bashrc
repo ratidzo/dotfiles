@@ -27,7 +27,7 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 
 # Oh My Posh config
-# eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/theme.json)"
+eval "$(oh-my-posh init bash --config ~/.config/powerline/kushal.omp.json)"
 
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
