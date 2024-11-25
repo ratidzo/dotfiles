@@ -24,6 +24,7 @@
   "mini.hipatterns": { "branch": "main", "commit": "797cbdc893cdcc2f0fbc05a23b4dae238a1fb0ae" },
   "mini.icons": { "branch": "main", "commit": "54686be7d58807906cb2c8c2216e0bf9c044f19a" },
   "mini.pairs": { "branch": "main", "commit": "7e834c5937d95364cc1740e20d673afe2d034cdb" },
+  "neo-tree.nvim": { "branch": "main", "commit": "42caaf5c3b7ca346ab278201151bb878006a6031" },
   "noice.nvim": { "branch": "main", "commit": "9ccd02965382922c33762933c5601318f93e19fb" },
   "nui.nvim": { "branch": "main", "commit": "b58e2bfda5cea347c9d58b7f11cf3012c7b3953f" },
   "nvim-cmp": { "branch": "main", "commit": "be7bd4c5f860c79da97af3a26d489af50babfd4b" },

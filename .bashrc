@@ -26,6 +26,9 @@ alias vim="nvim"
 export EDITOR="nvim"
 export VISUAL="nvim"
 
+# Oh My Posh config
+# eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/theme.json)"
+
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
         if [ -f "$rc" ]; then
