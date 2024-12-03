@@ -17,7 +17,7 @@ export PATH
 # User specific aliases and functions
 alias ls="eza --icons --git"
 alias l="eza -alg --color=always --group-directories-first --git --icons"
-alias ll="eza -aliSgh --color=always --group-directories-first --icons --header --long --git"
+alias ll="eza -alSgh --color=always --group-directories-first --icons --header --git"
 alias tree="eza --tree --color=always --group-directories-first --icons "
 
 # Alias for neovim
@@ -40,7 +40,7 @@ unset rc
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/raty/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/raty/anaconda3/bin/conda' 'shell.bash' 'hook' 2>/dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
@@ -52,4 +52,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
