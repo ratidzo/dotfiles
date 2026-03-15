@@ -58,6 +58,9 @@ vim.keymap.set('n', '<C-j>', '<C-w>j', { desc = 'Focus down' })
 vim.keymap.set('n', '<C-k>', '<C-w>k', { desc = 'Focus up' })
 vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = 'Focus right' })
 
+-- Open File Explorer (I'm using the default netrw - blame the Primeagen, not me!)
+vim.keymap.set('n', '<leader>e', ':Ex<CR>', { desc = 'Open file explorer' })
+
 -- [[ Basic Autocommands ]].
 -- See `:h lua-guide-autocommands`, `:h autocmd`, `:h nvim_create_autocmd()`
 
