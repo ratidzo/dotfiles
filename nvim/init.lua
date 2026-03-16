@@ -1,8 +1,8 @@
-
+require("cybertron")
+print("hello - init.lua")
 -- Set <space> as the leader key
 -- See `:help mapleader`
 -- NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
-vim.g.mapleader = ' '
 
 -- [[ Setting options ]] See `:h vim.o`
 -- NOTE: You can change these options as you wish!
@@ -49,23 +49,8 @@ vim.o.list = true
 -- instead raise a dialog asking if you wish to save the current file(s) See `:help 'confirm'`
 vim.o.confirm = true
 
--- [[ Set up keymaps ]] See `:h vim.keymap.set()`, `:h mapping`, `:h keycodes`
 
 -- Use <Esc> to exit terminal mode
-
--- Split window horizontally
-vim.keymap.set('n', '<leader>h', ':split<CR>', { desc = 'Split window horizontally' })
--- Split window vertically
-vim.keymap.set('n', '<leader>v', ':vsplit<CR>', { desc = 'Split window vertically' })
-
--- Navigate windows
-vim.keymap.set('n', '<C-h>', '<C-w>h', { desc = 'Focus left' })
-vim.keymap.set('n', '<C-j>', '<C-w>j', { desc = 'Focus down' })
-vim.keymap.set('n', '<C-k>', '<C-w>k', { desc = 'Focus up' })
-vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = 'Focus right' })
-
--- Open File Explorer (I'm using the default netrw - blame the Primeagen, not me!)
-vim.keymap.set('n', '<leader>e', ':Ex<CR>', { desc = 'Open file explorer' })
 
 -- [[ Basic Autocommands ]].
 -- See `:h lua-guide-autocommands`, `:h autocmd`, `:h nvim_create_autocmd()`
