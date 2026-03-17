@@ -13,6 +13,7 @@ vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = 'Focus right' })
 
 -- Open File Explorer (I'm using the default netrw - blame the Primeagen, not me!)
 vim.keymap.set('n', '<leader>e', ':Ex<CR>', { desc = 'Open file explorer' })
+vim.keymap.set('n', '<leader>f', 'fzf.files')
 
 
 
