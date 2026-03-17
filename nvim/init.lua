@@ -7,7 +7,7 @@ require('nvim-treesitter').install {'c', 'rust', 'javascript', 'typescript', 'js
 
 require("rose-pine").setup({
     variant = "moon", -- auto, main, moon, or dawn
-    dark_variant = "main", -- main, moon, or dawn
+    dark_variant = "moon", -- main, moon, or dawn
     dim_inactive_windows = false,
     extend_background_behind_borders = true,
 
@@ -56,10 +56,11 @@ require("rose-pine").setup({
 
     palette = {
         -- Override the builtin palette per variant
-        -- moon = {
-        --     base = '#18191a',
-        --     overlay = '#363738',
-        -- },
+        moon = {
+        base = '#222222',
+        overlay = '#303030',
+        surface = '#222222'
+        },
     },
 
 	-- NOTE: Highlight groups are extended (merged) by default. Disable this
