@@ -1,5 +1,8 @@
 
 -- Print the line number in front of each line
+-- Disable the mouse
+vim.opt.mouse = ""
+
 vim.o.number = true
 
 -- Tabs
