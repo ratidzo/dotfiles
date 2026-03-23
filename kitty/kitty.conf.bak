@@ -17,6 +17,6 @@ allow_hyperlinks 	    yes
 
 
 # BEGIN_KITTY_THEME
-# Kanagawa
+# zenwritten_dark
 include current-theme.conf
 # END_KITTY_THEME
