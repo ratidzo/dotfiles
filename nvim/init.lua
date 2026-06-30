@@ -1,5 +1,7 @@
 require("config.lazy")
 
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
 
 -- Set <space> as the leader key
 -- See `:h mapleader`
