@@ -1,0 +1,14 @@
+return {
+  'nvim-treesitter/nvim-treesitter',
+  lazy = false,
+  build = ':TSUpdate',
+  opts = {
+  	ensure_installed = {
+		"typescript",
+		"c",
+		"python",
+		"lua"
+
+	}
+  }
+}
